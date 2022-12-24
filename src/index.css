@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:ital,wght@0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @layer base {
 	body {
-		@apply font-[Orbitron];
+		@apply font-[Roboto];
+		@apply text-slate-400;
 	}
 	li {
 		@apply px-4;
