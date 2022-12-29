@@ -1,21 +1,21 @@
 import React, { useState } from "react";
-import { FaBars, } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 	return (
-		<div className="fixed w-full  h-[100px] flex justify-between items-center md:px-4  lg:px-20 px-4 bg-[#070707] ">
-			<div className="z-10 text-lime-700 font-thin sm:text-[40px] text-[30px] ">
+		<div className="fixed w-full  h-[100px] flex justify-between items-center md:px-4  lg:px-20 px-4 bg-[#170b23f8]">
+			<div className="z-10 text-lime-700 font-thin sm:text-[40px] text-[30px]  cursor-pointer">
 				Meron Tekie
 			</div>
 			<div>
 				<ul className=" hidden md:flex justify-between">
-					<li >Home</li>
-					<li >About</li>
-					<li >Skills</li>
-					<li >Projects</li>
-					<li >Contact</li>
+					<li>Home</li>
+					<li>About</li>
+					<li>Skills</li>
+					<li>Projects</li>
+					<li>Contact</li>
 				</ul>
 			</div>
 			{/*  Menu Icon */}

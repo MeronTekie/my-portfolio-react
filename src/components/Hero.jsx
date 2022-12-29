@@ -6,9 +6,9 @@ const Hero = () => {
 	return (
 		<div
 			name="home"
-			className="py-32  w-full bg-[#070707]  items-center pb-24 "
+			className="py-32  w-full bg-[#170b23f8]  items-center pb-24 "
 		>
-			<div className="w-full grid grid-flow-row  lg:grid-flow-col  items-center   justify-center bg-[#070707] ">
+			<div className="w-full grid grid-flow-row  lg:grid-flow-col  items-center   justify-center bg-[#170b23f8] ">
 				<div className="mx-auto  items-center lg:pt-20 pl-32 justify-center mt-20 ">
 					<img
 						className="h-[300px] w-[220px] bg-slate-400 rounded-[50%] "

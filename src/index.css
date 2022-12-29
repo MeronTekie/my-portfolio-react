@@ -6,8 +6,9 @@
 
 @layer base {
 	body {
-		@apply font-[Roboto] font-thin;
-		@apply text-slate-400;
+		@apply text-gray-500;
+		@apply bg-[#170b23f8];
+		@apply text-[Roboto];
 	}
 	li {
 		@apply px-4;
